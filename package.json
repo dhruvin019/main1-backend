@@ -2,14 +2,18 @@
   "name": "mainproject",
   "version": "1.0.0",
   "description": "A Backend Project with ChaiAndCode",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "js",
     "backend"
   ],
   "author": "Dhr",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
 }
